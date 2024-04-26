@@ -8,6 +8,7 @@ would pull up all games associated with castlevania in number form. (assuming th
 
 The user can then select a game by the number. It'll then prompt the user by categories. (ex. 'Dialog', 'Sound Effects', 'Misc', 'All' etc)
 This part of the prompts may be a little confusing. I plan to make it less confusing soon.
+
 So the user has the option to download 'All' the categories by typing 'all'. 
 *If 'All' has a number associated with it in the categories list, ignore the number and just type 'all'.*
 
