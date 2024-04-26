@@ -17,7 +17,7 @@ This was added to simplify the exporting process. Feel free to remove this funct
 
 This will not download any files that have been previously downloaded, it'll skip any sounds that have already been downloaded.
 
-You will have to update this to your 7-Zip executable (ex. seven_zip_executable = r"C:\Program Files\7-Zip\7z.exe")
+You will have to update this to your 7-Zip executable (ex. seven_zip_executable = r"C:\Program Files\7-Zip\7z.exe"):
 ```sh
    seven_zip_executable = r"PATH\TO\7ZIP\EXE"
   ```
