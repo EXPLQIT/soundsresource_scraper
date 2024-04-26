@@ -7,12 +7,10 @@ Upon running this script it'll prompt the user for a game, the user can search a
 would pull up all games associated with castlevania in number form. (assuming they're available).
 
 The user can then select a game by the number. It'll then prompt the user by categories. (ex. 'Dialog', 'Sound Effects', 'Misc', 'All' etc)
-This part of the prompts may be a little confusing. I plan to make it less confusing soon.
+The user can select an option using the number associated with it and it'll proceed to download the selected category.
+It'll create a folder based on the title of the game and save's the downloaded sounds into the folder.
 
-So the user has the option to download 'All' the categories by typing 'all'. 
-*If 'All' has a number associated with it in the categories list, ignore the number and just type 'all'.*
-
-Once the list has finished downloading, you can type 'exit' and then 'exit' again to get back to searching a game. 
+After it finishes downloading it'll prompt the user for another game.
 
 *Important Note* - 7-Zip is required for this script to function correctly. The reason for this is because it uses 7-Zip to extract the .zips that are downloaded and exports them into their respective folders.
 This was added to simplify the exporting process. Feel free to remove this function on your own if you don't wish to extract the .zips when they're downloaded.
